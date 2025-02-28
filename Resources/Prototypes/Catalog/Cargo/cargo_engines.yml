@@ -15,7 +15,7 @@
     sprite: Objects/Power/AME/ame_jar.rsi
     state: jar
   product: CrateEngineeringAMEJar
-  cost: 10000 # Frontier - Up the price
+  cost: 5000 # Frontier - Up the price
   category: cargoproduct-category-name-engineering
   group: market
 

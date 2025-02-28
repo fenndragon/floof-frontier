@@ -104,7 +104,7 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 200
+        maxVol: 250
   - type: Sprite
     sprite: _NF/Objects/Specific/Chemistry/jerrycan.rsi
     layers:
@@ -194,7 +194,7 @@
         - ReagentId: WeldingFuel
           Quantity: 200
   - type: StaticPrice # Frontier
-    vendPrice: 500 # Frontier
+    vendPrice: 200 # Frontier
 
 # Fuel-grade items
 - type: entity
@@ -216,7 +216,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 0
-    vendPrice: 1200
+    vendPrice: 600
   - type: Stack
     stackType: FuelPlasma
     count: 20
@@ -250,7 +250,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 0
-    vendPrice: 2500
+    vendPrice: 1250
   - type: Stack
     stackType: FuelUranium
     count: 20
@@ -284,7 +284,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 0
-    vendPrice: 5000
+    vendPrice: 2500
   - type: Stack
     stackType: FuelBananium
     count: 20

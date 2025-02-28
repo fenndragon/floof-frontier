@@ -594,6 +594,26 @@
   result: ReagentGrinderIndustrialMachineCircuitboard
 
 - type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: MedicalTechFabCircuitboard
+  result: MedicalTechFabCircuitboard
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: MercenaryTechFabCircuitboardNF
+  result: MercenaryTechFabCircuitboardNF
+  
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: AmmoTechFabCircuitboard
+  result: AmmoTechFabCircuitboard
+  
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: EngineeringTechFabCircuitboard
+  result: EngineeringTechFabCircuitboard
+  
+- type: latheRecipe
   parent: BaseCircuitboardRecipe
   id: JukeboxCircuitBoard
   result: JukeboxCircuitBoard

@@ -11,34 +11,34 @@
   cost: 5000
   recipeUnlocks:
   - WeaponProtoKineticAccelerator
-#  - ShuttleGunKineticCircuitboard # Frontier - Hold on there pardner
+  - ShuttleGunKineticCircuitboard # Frontier
   # These are roundstart but not replenishable for salvage
   - WeaponCrusher
   - WeaponCrusherDagger
   # This is not roundstart since its a direct upgrade
   - WeaponCrusherGlaive
 
-#- type: technology
-#  id: DraconicMunitions
-#  name: research-technology-draconic-munitions
-#  icon:
-#    sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
-#    state: incendiarydisplay
-#  discipline: Arsenal
-#  tier: 1
-#  cost: 10000
-#  recipeUnlocks:
-#  - BoxShotgunIncendiary
-#  - MagazineRifleIncendiary
-#  - MagazinePistolIncendiary
-#  - MagazineLightRifleIncendiary
-#  - SpeedLoaderMagnumIncendiary
-#  - MagazineShotgunIncendiary
-#  - MagazineBoxPistolIncendiary
-#  - MagazineBoxMagnumIncendiary
-#  - MagazineBoxLightRifleIncendiary
-#  - MagazineBoxRifleIncendiary
-#  - SpeedLoaderRifleHeavyIncendiary # Frontier
+- type: technology
+  id: DraconicMunitions
+  name: research-technology-draconic-munitions
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+    state: incendiarydisplay
+  discipline: Arsenal
+  tier: 1
+  cost: 10000
+  recipeUnlocks:
+  - BoxShotgunIncendiary
+  - MagazineRifleIncendiary
+  - MagazinePistolIncendiary
+  - MagazineLightRifleIncendiary
+  - SpeedLoaderMagnumIncendiary
+  - MagazineShotgunIncendiary
+  - MagazineBoxPistolIncendiary
+  - MagazineBoxMagnumIncendiary
+  - MagazineBoxLightRifleIncendiary
+  - MagazineBoxRifleIncendiary
+  - SpeedLoaderRifleHeavyIncendiary # Frontier
 
 - type: technology
   id: WeaponizedLaserManipulation
@@ -70,27 +70,30 @@
   - MagazineBoxMagnumRubber # Frontier
   - MagazineBoxPistolRubber # Frontier
   - MagazineBoxRifleRubber # Frontier
+  - MercenaryTechFabCircuitboardNF
+  - AmmoTechFabCircuitboard
 
-#- type: technology
-#  id: UraniumMunitions
-#  name: research-technology-uranium-munitions
-#  icon:
-#    sprite: Objects/Materials/Sheets/other.rsi
-#    state: uranium
-#  discipline: Arsenal
-#  tier: 1
-#  cost: 7500
-#  recipeUnlocks:
-#  - MagazineRifleUranium
-#  - MagazinePistolUranium
-#  - MagazineLightRifleUranium
-#  - SpeedLoaderMagnumUranium
-#  - MagazineBoxPistolUranium
-#  - MagazineBoxMagnumUranium
-#  - MagazineBoxLightRifleUranium
-#  - MagazineBoxRifleUranium
-#  - BoxShotgunUranium
-#  - SpeedLoaderRifleHeavyUranium # Frontier
+
+- type: technology
+  id: UraniumMunitions
+  name: research-technology-uranium-munitions
+  icon:
+    sprite: Objects/Materials/Sheets/other.rsi
+    state: uranium
+  discipline: Arsenal
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+  - MagazineRifleUranium
+  - MagazinePistolUranium
+  - MagazineLightRifleUranium
+  - SpeedLoaderMagnumUranium
+  - MagazineBoxPistolUranium
+  - MagazineBoxMagnumUranium
+  - MagazineBoxLightRifleUranium
+  - MagazineBoxRifleUranium
+  - BoxShotgunUranium
+  - SpeedLoaderRifleHeavyUranium # Frontier
 
 - type: technology
   id: AdvancedRiotControl

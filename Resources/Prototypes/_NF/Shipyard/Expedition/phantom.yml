@@ -1,0 +1,42 @@
+# Author Info
+# GitHub: Vide Noir (https://github.com/EaglePhntm)
+# Discord: @_videnoir_
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Phantom
+  parent: BaseVessel
+  name: NTC Phantom
+  description: An agile multi-functional bounty hunting and expedition ship.
+  price: 110000 #normally valued at 50k~ but has special roundstart shit etc, premium.
+  category: Medium
+  group: Expedition
+  shuttlePath: /Maps/_NF/Shuttles/Expedition/phantom.yml
+  guidebookPage: ShipyardPhantom
+  class:
+  - Expedition
+  - Salvage
+  - Chemistry
+  engine:
+  - AME
+
+- type: gameMap
+  id: Phantom
+  mapName: 'NTC Phantom'
+  mapPath: /Maps/_NF/Shuttles/Expedition/phantom.yml
+  minPlayers: 0
+  stations:
+    Phantom:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Phantom {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]

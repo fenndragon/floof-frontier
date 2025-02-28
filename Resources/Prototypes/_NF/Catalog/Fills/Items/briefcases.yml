@@ -60,30 +60,29 @@
 - type: entity
   parent: SpaceCashExpedition
   id: SpaceCashExpeditionT4
-  name: spesos (40,000)
+  name: spesos (30,000)
   categories: [ HideSpawnMenu ]
   components:
   - type: SpawnItemsOnUse
     items:
       - id: SpaceCash20000
-        amount: 2
+      - id: SpaceCash10000
     sound:
       collection: storageRustle
   - type: StaticPrice # Require since you can still sell a ship that have it on it
-    price: 40000
+    price: 30000
 
 - type: entity
   parent: SpaceCashExpedition
   id: SpaceCashExpeditionT5
-  name: spesos (70,000)
+  name: spesos (45,000)
   categories: [ HideSpawnMenu ]
   components:
   - type: SpawnItemsOnUse
     items:
       - id: SpaceCash25000
-        amount: 2
       - id: SpaceCash20000
     sound:
       collection: storageRustle
   - type: StaticPrice # Require since you can still sell a ship that have it on it
-    price: 70000
+    price: 45000

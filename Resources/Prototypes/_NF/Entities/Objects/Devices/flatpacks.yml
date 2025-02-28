@@ -259,6 +259,15 @@
   - type: Flatpack
     entity: MachineArtifactCrusher
 
+# - type: entity
+#   parent: ExosuitFabricatorFlatpack
+#   id: MachineAnomalySynchronizerFlatpack
+#   name: anomaly synchronizer flatpack
+#   description: A flatpack used for constructing an anomaly synchronizer.
+#   components:
+#   - type: Flatpack
+#     entity: MachineAnomalySynchronizer
+
 - type: entity
   parent: ExosuitFabricatorFlatpack
   id: MachineAnomalyVesselExperimentalFlatpack
@@ -366,6 +375,15 @@
   components:
   - type: Flatpack
     entity: KitchenMicrowave
+
+- type: entity
+  parent: UniformPrinterFlatpack
+  id: KitchenElectricRangeFlatpack
+  name: electric range flatpack
+  description: A flatpack used for constructing an electric range
+  components:
+  - type: Flatpack
+    entity: KitchenElectricRange
 
 - type: entity
   parent: UniformPrinterFlatpack

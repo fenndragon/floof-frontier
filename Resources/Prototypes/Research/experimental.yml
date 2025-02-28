@@ -123,7 +123,7 @@
   cost: 10000
   recipeUnlocks:
   - WeaponPistolCHIMP
-  # - AnomalySynchronizerCircuitboard # Frontier: doesn't make sense for Frontier
+  # - AnomalySynchronizerCircuitboard
   - AnomalyVesselExperimentalCircuitboard
   technologyPrerequisites:
   - BasicAnomalousResearch

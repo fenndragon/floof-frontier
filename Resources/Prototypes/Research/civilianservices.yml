@@ -150,6 +150,7 @@
   - BorgModuleAdvancedTreatment
   - BorgModuleDefibrillator
   - BorgModuleAdvancedParamedic # Frontier
+  - MedicalTechFabCircuitboard
 
 - type: technology
   id: AdvancedCleaning
